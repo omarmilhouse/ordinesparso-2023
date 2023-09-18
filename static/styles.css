@@ -1,0 +1,26 @@
+:root {
+	--main-bg-color: #00005F;
+	--main-text-color: #FFFFFF;
+}
+
+body {
+	background: var(--main-bg-color);
+	color: var(--main-text-colo);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	color: var(--main-text-color);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home img {
+	max-width: 75%;
+}
